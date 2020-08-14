@@ -1,9 +1,16 @@
 
 body{
   margin: 0;
+}
+.parallax{
   background-image: url("background1.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 500px;
 }
+
 
 .header {
   padding: 25px;
@@ -33,23 +40,13 @@ body{
   color: black;
 }
 
-
-
-
-.column {
-  float: left;
-  padding: 10px;
-}
-
-
 .column.middle {
   width: 50%;
   height: 450px;
-  //background-color: red;
+  background-color: red;
  overflow: hidden;
-  margin: auto;
   align-self: center;
-}
+  }
 
 .Trasition{
   height: 450px;
