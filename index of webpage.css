@@ -13,14 +13,14 @@ body{
 }
 .topnav {
   overflow: hidden;
-  background-color: #333;
+
   padding-left: 70%;
 }
 
 .topnav a {
   float: left;
   display: block;
-  color: white;
+  color: blue;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -39,33 +39,89 @@ body{
 .column {
   float: left;
   padding: 10px;
-
-}
-
-
-.column.side {
-  width: 25%;
-  color: white;
-
 }
 
 
 .column.middle {
   width: 50%;
-  color: red;
-  background-color: green;
-  margin-left: 20%
+  height: 450px;
+  //background-color: red;
+ overflow: hidden;
+  margin: auto;
+  align-self: center;
+}
+
+.Trasition{
+  height: 450px;
+  width: 500%;
+  //overflow: hidden;
+  background-color: blue;
+
+
+	animation-name:movement;
+	animation-duration: 16s;
+	animation-iteration-count: infinite;
+	animation-play-state: running;
+	animation-timing-function: ease-in-out;
+	animation-delay: 2s;
+}
+.Trasition img{
+  height: 450px;
+  width: 20%;
+  float: left;
+
 }
 
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+
+
 
 @media screen and (max-width: 300px) {
   .column.side, .column.middle {
     width: 100%;
   }
 }
+
+
+
+
+
+@keyframes movement
+		{
+			12.5%
+			{
+				margin-left: -100%;
+
+			}
+			25%
+			{
+				margin-left: -100%;
+			}
+			37.5%
+			{
+
+				margin-left: -200%;
+			}
+			50%
+			{
+				margin-left: -200%;
+			}
+			62.5%
+			{
+				margin-left: -300%;
+
+			}
+			75%
+			{
+				margin-left: -300%;
+			}
+
+			87.5%
+			{
+				margin-left: -400%;
+			}
+			100%
+			{
+				margin-left: -400%;
+			}
+		}
