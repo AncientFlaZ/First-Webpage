@@ -2,14 +2,6 @@
 body{
   margin: 0;
 }
-.parallax{
-  background-image: url("background1.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  min-height: 500px;
-}
 
 
 .header {
@@ -40,19 +32,39 @@ body{
   color: black;
 }
 
+.parallax{
+  background-image: url("background1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 500px;
+  display: inline-block;
+}
+
+
+.about{
+  //background-color: green;
+  height: 500px;
+  width: 50%;
+  display: inline-block;
+}
+
+
 .column.middle {
   width: 50%;
-  height: 450px;
-  background-color: red;
- overflow: hidden;
-  align-self: center;
+  height: 500px;
+  overflow: hidden;
+  float: right;
+  display: inline-block;
   }
 
 .Trasition{
   height: 450px;
   width: 500%;
   //overflow: hidden;
-  background-color: blue;
+
+
 
 
 	animation-name:movement;
@@ -63,7 +75,7 @@ body{
 	animation-delay: 2s;
 }
 .Trasition img{
-  height: 450px;
+  height: 500px;
   width: 20%;
   float: left;
 
