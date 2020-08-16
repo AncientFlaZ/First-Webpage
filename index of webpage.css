@@ -3,12 +3,18 @@ body{
   margin: 0;
 }
 
+.logo{
+  height: 100px;
+  width: 150px;
+  float: left;
+
+}
+
 
 .header {
-  padding: 25px;
-  text-align: center;
+  padding: 10px;
+  text-align: left;
   color: blue;
-  background-color: black;
 }
 .topnav {
   overflow: hidden;
@@ -18,10 +24,10 @@ body{
 
 .topnav a {
   float: left;
-  display: block;
+  display: inline-block;
   color: blue;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 10px;
   text-decoration: none;
   font-size: 20px;
 }
@@ -38,32 +44,40 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  min-height: 500px;
+  max-height: 700px;
   display: inline-block;
+
 }
 
 
 .about{
-  //background-color: green;
+  background-color: green;
   height: 500px;
-  width: 50%;
+  width: 100%;
   display: inline-block;
+  background: rgba(0, 0, 0, 0.5);
+}
+.about h1,h2{
+  font-size: 30px;
+  text-align:center;
+  color: white;
+  text-transform: full-width;
 }
 
 
+
 .column.middle {
+
   width: 50%;
   height: 500px;
   overflow: hidden;
-  float: right;
-  display: inline-block;
+  margin-left: 25%;
   }
 
 .Trasition{
   height: 450px;
   width: 500%;
   //overflow: hidden;
-
 
 
 
@@ -78,6 +92,9 @@ body{
   height: 500px;
   width: 20%;
   float: left;
+  border: 5px;
+  border-color: green;
+  opacity: 0.8;
 
 }
 
