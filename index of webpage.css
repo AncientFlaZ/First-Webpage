@@ -7,7 +7,6 @@ body{
   height: 100px;
   width: 150px;
   float: left;
-
 }
 
 
@@ -49,20 +48,49 @@ body{
 
 }
 
+.parallax1{
+  background-image:url("car-background.jpg") ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  max-height: 800px;
+}
+
+.parallax2{
+  background-image:url("car-background2.jpg") ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  max-height: 800px;
+}
+
+.parallax3{
+  background-image:url("car-background3.jpg") ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  max-height: 800px;
+}
+
+
+
 
 .about{
 
-  height: 500px;
+  height: 200px;
   width: 40%;
   display: inline-block;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0,0.8);
 }
 .about h1,h2 {
   font-size: 30px;
   text-align:center;
   color: white;
   text-transform: full-width;
-  
+
 }
 
 
@@ -71,7 +99,7 @@ body{
 
 
   width: 50%;
-  height: 500px;
+  height: 800px;
   overflow: hidden;
   float: right;
   }
@@ -96,7 +124,7 @@ body{
   float: left;
   border: 5px;
   border-color: green;
-  opacity: 0.8;
+
 
 }
 
@@ -153,3 +181,11 @@ body{
 				margin-left: -400%;
 			}
 		}
+
+
+.main_content_div{
+  width: auto;
+  height: 800px;
+  background-color: black;
+  opacity: 0.2;
+}
