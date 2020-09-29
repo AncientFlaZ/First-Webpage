@@ -14,10 +14,10 @@ body{
   padding: 10px;
   text-align: left;
   color: blue;
+
 }
 .topnav {
   overflow: hidden;
-
   padding-left: 70%;
 }
 
@@ -84,6 +84,7 @@ body{
   width: 40%;
   display: inline-block;
   background: rgba(0, 0, 0,0.8);
+
 }
 .about h1,h2 {
   font-size: 30px;
@@ -96,10 +97,8 @@ body{
 
 
 .column.middle {
-
-
   width: 50%;
-  height: 800px;
+  height: 585px;
   overflow: hidden;
   float: right;
   }
